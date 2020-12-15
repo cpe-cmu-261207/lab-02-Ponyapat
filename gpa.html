@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="gpa.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<title>GPA</title>
+</head>
+<button class="button button1"><a href="CV.html">Main Menu</a></button>
+<button class="button button2" ><a href="gallery.html">My Galley</a></button>
+<button class="button button3"><a href="contact.html"> Contact</a></button>
+<button class="button button4">GPA Calculator</button>
+
+
+<body>
+
+	<h1>GPA</h1>
+	<br>
+
+
+<ul data-bind="foreach: classes">
+    <li>
+        <input type="text" data-bind="value: title" placeholder="Title"/>
+        <input type="text" data-bind="value: credits" placeholder="Credits"/>
+        <input type="text" data-bind="value: letterGrade" placeholder="Letter Grade"/>  
+    </li>
+</ul>
+
+<button data-bind="click: addClass">Add a Class</button>
+
+<hr />
+
+Your Data:
+<pre data-bind="text: ko.toJSON($root, null, 2)"></pre>
+  
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: linear-gradient(to bottom right,#e1eec3,#f05053);
+  background-repeat: no-repeat;
+  background-size: auto;
+  }
+
+h1   {color: black;
+  font-family: "Brush Script MT",Arial,Cursive;
+  border: 10;
+  font-size: 3em;
+  text-align: center;
+  }
+
+
+  .one   {color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+  border: 10;
+  font-size: 2em;
+  text-align: center;
+  vertical-align: middle;
+  }
+
+.two  {
+  color: black;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  margin: 0px 20px 10px;
+  }
+
+.three {
+  color: black;
+  font-size: 0.9em;
+  margin:10px 15px 10px;
+  line-height: 2;
+}
+
+.button {
+    
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 16px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 125px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+}
+
+
+.button1 {
+
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  
+}
+
+.butto1:hover {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+
+
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  
+  
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #A52A2A;
+  
+}
+
+.button3:hover {
+  background-color: #A52A2A;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #696969;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+;
+* { text-rendering: optimizelegibility;}
+body, input, textarea, select, button { font-family: 'Open Sans', sans-serif; }
+pre { font-family: 'Inconsolata', monospace; }
